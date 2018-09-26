@@ -7,11 +7,8 @@ make build/wordcount
 
 <ipso_lorem.txt ./build/wordcount
 
-# The inputs most likely to cause problems are files with variation 
-# at the boundary conditions. For example, files that have multiple
-# newlines in a row, or that mix multiple blank characters between 
-# words.
-# 
+
+ 
 # Another class of problems could occur with special characters and 
 # unicode. For example, the carriage return special character '\r' 
 # would be counted as part of a word. Punctuation should not cause 
